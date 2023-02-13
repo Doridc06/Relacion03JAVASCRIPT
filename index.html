@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Relacion 03 - JavaScript</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <h1 id="Cabecera">Contenido</h1>
+    <h2>1</h2>
+    <h2></h2>
+    <h2></h2>
+    <h3></h3>
+
+    <img src="./images/Study.jpg" widht="350px" height="350px">
+    <input type="button" onclick="cambiarImagen()" value="Cambiar Imagen" id="btncambiarImagen"
+        onmouseenter="setEnterCambiarImagen()" onmouseleave="setLeaveCambiarImagen()"
+        onmousedown="setDownCambiarImagen()">
+    <input type="button" onclick="cambiarColor()" value="Cambiar Color" id="btncambiarColor"
+        onmouseenter="setEnterCambiarColor()" onmouseleave="setLeaveCambiarColor()" onmousedown="setDownCambiarColor()">
+
+    <div class="contenido">
+        <section class="botones">
+            <input type="button" value="rojo" id="btnrojo" onclick="setColorRojo()" onmouseenter="setEnterRojo()"
+                onmouseleave="setLeaveRojo()" onmousedown="setDownRojo()">
+            <input type="button" value="verde" id="btnverde" onclick="setColorVerde()" onmouseenter="setEnterVerde()"
+                onmouseleave="setLeaveVerde()" onmousedown="setDownVerde()">
+            <input type="button" value="azul" id="btnazul" onclick="setColorAzul()" onmouseenter="setEnterAzul()"
+                onmouseleave="setLeaveAzul()" onmousedown="setDownAzul()">
+            <input type="button" value="amarillo" id="btnamarillo" onclick="setColorAmarillo()"
+                onmouseenter="setEnterAmarillo()" onmouseleave="setLeaveAmarillo()" onmousedown="setDownAmarillo()">
+            <input type="button" value="rosado" id="btnrosado" onclick="setColorRosado()"
+                onmouseenter="setEnterRosado()" onmouseleave="setLeaveRosado()" onmousedown="setDownRosado()">
+            <input type="button" value="reset" id="btnreset" onclick="setColorReset()" onmouseenter="setEnterReset()"
+                onmouseleave="setLeaveReset()" onmousedown="setDownReset()">
+        </section>
+        <div class="box">
+        </div>
+    </div>
+    <script src="js/changecolor.js"></script>
+</body>
+
+</html>
